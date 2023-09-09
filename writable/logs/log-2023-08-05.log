@@ -1,0 +1,12 @@
+CRITICAL - 2023-08-05 08:43:17 --> Cannot instantiate abstract class App\Controllers\BaseController
+in SYSTEMPATH\CodeIgniter.php on line 906.
+ 1 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\1BIS\\public\\index.php')
+CRITICAL - 2023-08-05 08:43:21 --> Cannot instantiate abstract class App\Controllers\BaseController
+in SYSTEMPATH\CodeIgniter.php on line 906.
+ 1 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\1BIS\\public\\index.php')

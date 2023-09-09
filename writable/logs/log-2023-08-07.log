@@ -1,0 +1,23 @@
+CRITICAL - 2023-08-07 08:54:58 --> Invalid file: "layouts/users/layouts/navbar2.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/users/layouts/navbar2.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/users/layouts/navbar2', null, true)
+ 3 APPPATH\Views\layouts\Users\layouts\base.php(25): CodeIgniter\View\View->include('layouts/users/layouts/navbar2')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\1BIS\\app\\Views\\layouts\\Users\\layouts\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/users/layouts/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/layouts/users/index', [], true)
+ 8 APPPATH\Controllers\Order.php(35): view('Views/layouts/users/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\1BIS\\public\\index.php')
+CRITICAL - 2023-08-07 09:08:28 --> Undefined variable $product
+in APPPATH\Controllers\Order.php on line 27.
+ 1 APPPATH\Controllers\Order.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\XAMPP\\htdocs\\1BIS\\app\\Controllers\\Order.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\1BIS\\public\\index.php')
